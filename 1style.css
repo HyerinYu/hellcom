@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-size: 100%;
+	font-weight: normal;
+	background-color: transparent;
+	font-style: normal;
+}
+
+body {
+	font-family: "Noto Sans Kr", sans-serif; }
+
+	p {
+		font-size: 45px;
+		color: white;
+transform: rotate(180deg);
+
+}
+
+
+	}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height:100vh;
+  z-index: 777;
+}
+
+
+.tb {
+  position: fixed;
+  bottom: 50vh;
+  background: transparent;
+  text-align: center;
+
+
+  
+  width: 100%;
+  padding: 0px;
+  z-index: 888;
+}
+
+table {
+	position: fixed;
+	z-index: 999;
+	bottom: 3vh;
+	left: 40vw;
+
+
+}
